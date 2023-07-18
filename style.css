@@ -15,11 +15,7 @@
      border-radius: 10px;
 
      animation-name: anime;
-<<<<<<< HEAD
-     animation-duration: 0.4s;
-=======
      animation-duration: 0.5s;
->>>>>>> c056bea80978c378461ad799da2993947cf44178
      animation-iteration-count: 10000;
  }
 

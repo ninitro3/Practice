@@ -2,7 +2,22 @@
 <html>
 
 <head>
-    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="style.css" />
+
+    <script>
+        // Function to handle the screenshot event
+        function handleScreenshot() {
+            alert("Screenshots are not allowed on this webpage !");
+            // Perform additional actions if needed
+        }
+
+        // Event listener for screenshot event
+        document.addEventListener("visibilitychange", function () {
+            if (document.visibilityState === "hidden") {
+                handleScreenshot();
+            }
+        });
+    </script>
 </head>
 
 <body>

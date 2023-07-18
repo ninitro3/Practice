@@ -1,0 +1,55 @@
+ body {
+     display: flex;
+     grid-template-columns: 2fr 2fr;
+ }
+
+ div {
+     margin-left: 100px;
+     margin-top: 50px;
+     width: 600px;
+     height: 800px;
+     background-image: url("img3.jpg");
+     background-size: cover;
+     position: relative;
+     border: 10px solid black;
+     border-radius: 10px;
+     animation-name: anime;
+     animation-duration: 0.5s;
+     animation-iteration-count: 1000;
+ }
+
+ /* img {
+     width: 400px;
+     height: 400px;
+ } */
+
+ a {
+     width: 250px;
+     height: 30px;
+     text-align: center;
+     padding: 20px;
+     background-color: aliceblue;
+     border: 2px solid rgb(4, 0, 255);
+     border-radius: 10px;
+     font-size: 30px;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     text-decoration: none;
+     color: black;
+     margin-top: 100px;
+     margin-left: 10px;
+ }
+
+ @keyframes anime {
+     0% {
+         /* left: 0px; */
+         top: 0px;
+     }
+
+     50% {
+         top: 1000px;
+     }
+
+     100% {
+         top: 0px;
+     }
+ }

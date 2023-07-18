@@ -13,9 +13,10 @@
      position: relative;
      border: 10px solid black;
      border-radius: 10px;
+
      animation-name: anime;
-     animation-duration: 0.5s;
-     animation-iteration-count: 1000;
+     animation-duration: 0.2s;
+     animation-iteration-count: 10000;
  }
 
  /* img {
@@ -41,7 +42,6 @@
 
  @keyframes anime {
      0% {
-         /* left: 0px; */
          top: 0px;
      }
 

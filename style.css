@@ -8,14 +8,14 @@
      margin-top: 50px;
      width: 600px;
      height: 800px;
-     background-image: url("img3.jpg");
+     background-image: url("smsg2.jpg");
      background-size: cover;
      position: relative;
      border: 10px solid black;
      border-radius: 10px;
 
      animation-name: anime;
-     animation-duration: 0.5s;
+     animation-duration: 0.7s;
      animation-iteration-count: 10000;
  }
 

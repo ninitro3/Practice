@@ -1,34 +1,37 @@
-body{
+body {
     background-color: rgba(189, 189, 189, 0.533);
-    font-family:Arial, Helvetica, sans-serif;
- }
- div {
-     width: 600px;
-     height: 840px;
-     margin-top: 2%;
-     /* background-image: url("Arise_1.png"); */
-     background-size: cover;
-     position: relative;
-     border: 5px solid rgb(255, 255, 255);
-     border-radius: 20px;
-     align-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
 
-     animation-name: anime;
-     animation-duration: 0.7s;
-     animation-iteration-count: 10000;
- }
+div {
+    width: 600px;
+    height: 840px;
+    margin-top: 2%;
+    /* background-image: url("Arise_1.png"); */
+    background-size: cover;
+    position: relative;
+    border: 5px solid rgb(255, 255, 255);
+    border-radius: 20px;
+    align-content: center;
 
- button{
+    animation-name: anime;
+    animation-duration: 0.7s;
+    animation-iteration-count: 10000;
+}
+
+button {
     padding: 10px;
     width: 200px;
-    margin-top:15px;
-    font-size:xx-large;
+    margin-top: 15px;
+    font-size: xx-large;
     border-radius: 10px;
- }
- a{
+}
+
+a {
     text-decoration: none;
- }
- /* a {
+}
+
+/* a {
      width: 250px;
      height: 30px;
      text-align: center;
@@ -44,16 +47,16 @@ body{
      margin-left: 10px;
  } */
 
- @keyframes anime {
-     0% {
-         top: 0px;
-     }
+@keyframes anime {
+    0% {
+        top: 0px;
+    }
 
-     50% {
-         top: 1200px;
-     }
+    50% {
+        top: 1050px;
+    }
 
-     100% {
-         top: 0px;
-     }
- }
+    100% {
+        top: 0px;
+    }
+}

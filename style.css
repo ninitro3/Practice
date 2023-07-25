@@ -1,6 +1,9 @@
 body {
-    background-color: rgba(189, 189, 189, 0.533);
+    background-color: rgba(255, 255, 255, 0.545);
     font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    font-size: 5em;
 }
 
 div {
@@ -15,20 +18,23 @@ div {
     align-content: center;
 
     animation-name: anime;
-    animation-duration: 0.7s;
-    animation-iteration-count: 10000;
+    animation-duration: 0.55s;
+    animation-iteration-count: 100000;
 }
 
 button {
-    padding: 10px;
-    width: 200px;
-    margin-top: 15px;
-    font-size: xx-large;
-    border-radius: 10px;
+    padding: 15px;
+    background-color: rgba(32, 162, 255, 0.288);
+    width: 45%;
+    margin-top: 30px;
+    font-size: 4em;
+    border: none;
+    border-radius: 15px;
 }
 
 a {
     text-decoration: none;
+    color:rgba(0, 0, 0, 0.75)
 }
 
 /* a {
